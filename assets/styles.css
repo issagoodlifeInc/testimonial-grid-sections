@@ -25,7 +25,6 @@ body {
   /* 500, 600 weights */
   font-size: 13px;
   background: var(--lightgrayishblue);
-  height: 100vh;
 }
 
 .attribution {
@@ -103,12 +102,11 @@ body {
 }
 
 .daniel {
-  background: var(--moderateviolet);
-  grid-area: a;
+  background: var(--moderateviolet) url("./images/bg-pattern-quotation.svg")
+    no-repeat top right 25%;
 }
 
 .jonathan {
-  grid-area: b;
   background: var(--vdkgrayishblue);
 }
 
@@ -116,15 +114,8 @@ body {
 .kira {
   background: var(--white);
 }
-.jeanette {
-  grid-area: d;
-}
 
-.kira {
-  grid-area: c;
-}
 .patrick {
-  grid-area: e;
   background: var(--vdkblackishblue);
 }
 
