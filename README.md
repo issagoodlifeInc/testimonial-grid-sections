@@ -109,4 +109,5 @@ Using CSS Grid for the large screens layout:
 ## Acknowledgments
 
 Kibenon - Helped him complete a part of the challenge hence was set up to do it in a little less time.
+
 [His Completed Challenge]("https://www.frontendmentor.io/solutions/testimonials-sections-using-grid-LDyXDrBAE3")
