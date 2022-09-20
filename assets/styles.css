@@ -68,6 +68,11 @@ body {
   border-radius: 50%;
 }
 
+.profile_name {
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
 .profile_name,
 .profile_title,
 .work_details,
