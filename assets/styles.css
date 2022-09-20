@@ -130,6 +130,21 @@ body {
   background: var(--vdkblackishblue);
 }
 
+.daniel img {
+  border: 3px solid var(--vdkgrayishblue);
+}
+.patrick img {
+  border: 3px solid var(--moderateviolet);
+}
+
+.jonathan img {
+  border: 3px solid var(--lightgrayishblue);
+}
+.jeanette img,
+.kira img {
+  border: 3px solid var(--vdkblackishblue);
+}
+
 @media only screen and (min-width: 1000px) {
   main {
     display: grid;
