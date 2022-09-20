@@ -40,13 +40,13 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1000px;
   width: 90%;
   margin: 5% auto;
 }
 
 .card {
-  max-width: 600px;
+  max-width: 450px;
   margin: 1rem auto;
   border-radius: 10px;
   padding: 25px;
@@ -104,9 +104,11 @@ body {
 .daniel {
   background: var(--moderateviolet) url("./images/bg-pattern-quotation.svg")
     no-repeat top right 25%;
+  grid-area: a;
 }
 
 .jonathan {
+  grid-area: b;
   background: var(--vdkgrayishblue);
 }
 
@@ -115,49 +117,34 @@ body {
   background: var(--white);
 }
 
+.jeanette {
+  grid-area: d;
+}
+
+.kira {
+  grid-area: c;
+}
+
 .patrick {
+  grid-area: e;
   background: var(--vdkblackishblue);
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 1000px) {
   main {
     display: grid;
     gap: 15px;
-    margin: 0;
-    grid-template-areas:
-      "b b d d"
-      "c c a a"
-      "e e e e";
-  }
-
-  .daniel {
-    grid-area: a;
-  }
-
-  .jonathan {
-    grid-area: b;
-  }
-
-  .jeanette {
-    grid-area: d;
-  }
-
-  .kira {
-    grid-area: c;
-  }
-  .patrick {
-    grid-area: e;
-  }
-
-  .card {
-    margin: 0 auto;
-  }
-}
-@media only screen and (min-width: 800px) {
-  main {
-    margin: 0;
+    grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
       "a a b c"
       "d e e c";
+  }
+
+  .card {
+    max-width: 600px;
+  }
+
+  .container {
+    width: 98%;
   }
 }
